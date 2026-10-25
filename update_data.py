@@ -66,11 +66,11 @@ def collect():
         url=f"{BASE}/{lc}/{lc}-c0001-e006258-u.json"
         try:
             d=json.loads(fetch(url)); votes=candidates(d)
+            if code=="BR":save("winner-official.json",official_winner(d))
             if votes:
                 record={"code":code,"lula":votes[0],"flavio":votes[1],"updated":f"{d.get('dg','')} {d.get('hg','')}".strip(),"source":"TSE — EA20","sourceUrl":url,"partial":True}
                 if code=="BR":
                     national=record
-                    save("winner-official.json",official_winner(d))
                 elif code!="ZZ":states.append(record)
         except Exception as exc:print(code,type(exc).__name__,str(exc)[:100])
         time.sleep(.15)
