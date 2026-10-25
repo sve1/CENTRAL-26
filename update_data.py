@@ -84,8 +84,8 @@ CITY_COUNTRY={normalize(k):v for k,v in CITY_COUNTRY.items()}
 def exterior():
     """EA12 lista localidades; EA20 por localidade. Ignora códigos não identificados."""
     config_urls=[
-        f"{BASE}/zz/mun-e006258-cm.json",
-        f"{BASE}/zz/zz-e006258-cm.json",
+        f"https://resultados.tse.jus.br/oficial/ele2026/6258/config/mun-e006258-cm.json",
+        
         "https://resultados.tse.jus.br/oficial/ele2026/6258/config/mun-e006258-cm.json",
         "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mun-e006258-cm.json",
     ]
@@ -97,7 +97,7 @@ def exterior():
                 if isinstance(node,dict):
                     name=node.get("nm") or node.get("nome") or node.get("nmmun") or node.get("nmu")
                     code=node.get("cd") or node.get("codigo") or node.get("cdmun") or node.get("cdi")
-                    if name and code and str(code).isdigit():entries.append((str(code),normalize(name)))
+                    if name and code and str(code).isdigit() and len(str(code))<=5:entries.append((str(code).zfill(5),normalize(name)))
                     for val in node.values():
                         if isinstance(val,(dict,list)):walk(val)
                 elif isinstance(node,list):
@@ -114,7 +114,7 @@ def exterior():
         if not country or code in checked:continue
         checked.add(code)
         # EA20 da localidade: zz + código de município, sem inferir o país a partir do arquivo.
-        url=f"{BASE}/zz/zz{code}-c0001-e006258-u.json"
+        url=f"{BASE}/zz/zz{code.zfill(5)}-c0001-e006258-u.json"
         try:
             data=json.loads(fetch(url));votes=candidates(data)
             if not votes:continue
