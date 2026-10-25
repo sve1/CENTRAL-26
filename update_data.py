@@ -36,6 +36,29 @@ def candidates(obj):
 
 def save(name,data):
     (ROOT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+def official_winner(data):
+    """EA20 nacional: só confirma eleito com totalização final e status nominal."""
+    base={"status":"pending","officialWinner":False,"winner":None,
+          "source":"TSE","updated":f"{data.get('dg','')} {data.get('hg','')}".strip(),
+          "sourceUrl":f"{BASE}/br/br-c0001-e006258-u.json",
+          "totalization":data.get("and"),"mathematical":data.get("md")}
+    if str(data.get("f","")).lower()!="o" or str(data.get("tf","")).lower()!="s" or str(data.get("and","")).lower()!="f":
+        return base
+    found=[]
+    for cargo in data.get("carg",[]):
+        if str(cargo.get("cd"))!="1":continue
+        for agr in cargo.get("agr",[]):
+            for party in agr.get("par",[]):
+                found.extend(x for x in party.get("cand",[]) if isinstance(x,dict))
+    winners=[x for x in found if normalize(x.get("st","")).strip() in ("ELEITO","ELEITA")]
+    if len(winners)!=1:return base
+    winner=winners[0]
+    number=str(winner.get("n",""))
+    if number not in ("13","22"):return base
+    base.update(status="final",officialWinner=True,winner="lula" if number=="13" else "flavio",
+                candidateName=winner.get("nmu"),votes=int(winner.get("vap","0")))
+    return base
+
 def collect():
     states=[];national=None
     for code in ["BR"]+UFS+["ZZ"]:
@@ -45,10 +68,13 @@ def collect():
             d=json.loads(fetch(url)); votes=candidates(d)
             if votes:
                 record={"code":code,"lula":votes[0],"flavio":votes[1],"updated":f"{d.get('dg','')} {d.get('hg','')}".strip(),"source":"TSE — EA20","sourceUrl":url,"partial":True}
-                if code=="BR":national=record
+                if code=="BR":
+                    national=record
+                    save("winner-official.json",official_winner(d))
                 elif code!="ZZ":states.append(record)
         except Exception as exc:print(code,type(exc).__name__,str(exc)[:100])
         time.sleep(.15)
+    # A confirmação só é emitida por status oficial no EA20 nacional.
     # Nunca sobrescreve resultados válidos com uma coleta vazia.
     save("results-br.json",states)
     if national:save("results-national.json",national)
