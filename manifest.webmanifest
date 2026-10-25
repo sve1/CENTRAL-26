@@ -1,0 +1,18 @@
+{
+  "name": "CENTRAL 26 — Apuração Eleitoral",
+  "short_name": "CENTRAL 26",
+  "description": "Acompanhamento independente da apuração eleitoral brasileira.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09111f",
+  "theme_color": "#15243a",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
