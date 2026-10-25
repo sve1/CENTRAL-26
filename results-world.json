@@ -1,1 +1,279 @@
-[]
+[
+  {
+    "code": "NLD",
+    "lula": 5578,
+    "flavio": 1383,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "AMSTERDA"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "ESP",
+    "lula": 9293,
+    "flavio": 4289,
+    "updated": "25/10/2026 17:06:07",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "BARCELONA",
+      "MADRI"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "DEU",
+    "lula": 16549,
+    "flavio": 4374,
+    "updated": "25/10/2026 17:06:07",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "BERLIM",
+      "FRANKFURT",
+      "MUNIQUE"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "DNK",
+    "lula": 1383,
+    "flavio": 243,
+    "updated": "25/10/2026 17:06:07",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "COPENHAGUE"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "ARG",
+    "lula": 271,
+    "flavio": 234,
+    "updated": "25/10/2026 19:33:34",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "CORDOBA",
+      "MENDOZA"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "GBR",
+    "lula": 10968,
+    "flavio": 6349,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "EDIMBURGO",
+      "LONDRES"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "SWE",
+    "lula": 2127,
+    "flavio": 591,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "ESTOCOLMO"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "PRT",
+    "lula": 34319,
+    "flavio": 23433,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "FARO",
+      "LISBOA",
+      "PORTO"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "CHE",
+    "lula": 7089,
+    "flavio": 5419,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "GENEBRA",
+      "ZURIQUE"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "JPN",
+    "lula": 7098,
+    "flavio": 28538,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "HAMAMATSU",
+      "NAGOIA",
+      "TOQUIO"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "FRA",
+    "lula": 10676,
+    "flavio": 2039,
+    "updated": "25/10/2026 17:06:07",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "MARSELHA",
+      "PARIS"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "ITA",
+    "lula": 7921,
+    "flavio": 5283,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "MILAO",
+      "ROMA"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "IND",
+    "lula": 25,
+    "flavio": 23,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "NOVA DELHI"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "NOR",
+    "lula": 820,
+    "flavio": 248,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "OSLO"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "CHN",
+    "lula": 308,
+    "flavio": 88,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "PEQUIM",
+      "XANGAI"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "CHL",
+    "lula": 700,
+    "flavio": 556,
+    "updated": "25/10/2026 19:46:38",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "SANTIAGO"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "KOR",
+    "lula": 148,
+    "flavio": 82,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "SEUL"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "SGP",
+    "lula": 213,
+    "flavio": 121,
+    "updated": "25/10/2026 17:06:07",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "SINGAPURA"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "AUS",
+    "lula": 4161,
+    "flavio": 2468,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "SYDNEY"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "ISR",
+    "lula": 166,
+    "flavio": 699,
+    "updated": "25/10/2026 17:06:07",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "TEL AVIV"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "AUT",
+    "lula": 1178,
+    "flavio": 393,
+    "updated": "25/10/2026 17:06:07",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "VIENA"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "NZL",
+    "lula": 418,
+    "flavio": 101,
+    "updated": "25/10/2026 17:06:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "WELLINGTON"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  }
+]
