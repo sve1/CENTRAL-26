@@ -59,6 +59,15 @@ def official_winner(data):
                 candidateName=winner.get("nmu"),votes=int(winner.get("vap","0")))
     return base
 
+def section_progress(d):
+    """Percentual oficial de seções totalizadas; nunca inferir a partir de votos."""
+    raw=(d.get("s") or {}).get("pst")
+    if raw is None:raw=d.get("pst")
+    try:
+        value=float(str(raw).replace(",","."))
+        return round(value,2) if 0<=value<=100 else None
+    except (TypeError,ValueError):return None
+
 def collect():
     states=[];national=None
     for code in ["BR"]+UFS+["ZZ"]:
@@ -71,7 +80,12 @@ def collect():
                 record={"code":code,"lula":votes[0],"flavio":votes[1],"updated":f"{d.get('dg','')} {d.get('hg','')}".strip(),"source":"TSE — EA20","sourceUrl":url,"partial":True}
                 if code=="BR":
                     national=record
-                elif code!="ZZ":states.append(record)
+                elif code!="ZZ":
+                    progress=section_progress(d)
+                    if progress is not None:
+                        record["sectionsCountedPct"]=progress
+                        record["sectionsRemainingPct"]=round(100-progress,2)
+                    states.append(record)
         except Exception as exc:print(code,type(exc).__name__,str(exc)[:100])
         time.sleep(.15)
     # A confirmação só é emitida por status oficial no EA20 nacional.
