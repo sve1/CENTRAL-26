@@ -106,6 +106,8 @@ def exterior():
             if entries:break
         except Exception as e:print("EA12",url,str(e)[:70])
     if not entries:
+        save("results-world.json",[])
+        save("results-world-status.json",{"status":"unavailable","updated":datetime.now(timezone.utc).isoformat(),"source":"TSE — Divulgação de Resultados","message":"Não foi possível confirmar resultados parciais oficiais por país na fonte do TSE. Nenhum país será colorido.","countries":0})
         print("Exterior: configuração EA12 indisponível; não gerar placares.")
         return
     grouped={};checked=set()
@@ -124,10 +126,10 @@ def exterior():
             g["localities"].append(name)
         except Exception as e:print("Exterior",code,str(e)[:80])
         time.sleep(.15)
-    if grouped:
-        for g in grouped.values():
-            g["coverage"]="Parcial: apenas localidades mapeadas; não representa necessariamente o total do país"
-        save("results-world.json",list(grouped.values()))
+    for g in grouped.values():
+        g["coverage"]="Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+    save("results-world.json",list(grouped.values()))
+    save("results-world-status.json",{"status":"partial_official" if grouped else "unavailable","updated":datetime.now(timezone.utc).isoformat(),"source":"TSE — Divulgação de Resultados","message":"Resultados parciais oficiais do TSE disponíveis para as localidades identificadas." if grouped else "Ainda não há resultados parciais oficiais do exterior disponíveis ou verificáveis nesta integração com o TSE.","countries":len(grouped)})
     print("Exterior: países com localidades verificadas:",len(grouped))
 
 def news():
