@@ -16,26 +16,24 @@ def normalize(s):
     import unicodedata
     return ''.join(c for c in unicodedata.normalize("NFKD",str(s or "")) if not unicodedata.combining(c)).upper()
 def candidates(obj):
-    # EA20 costuma publicar candidatos em abr[].cand; aceita outras estruturas reconhecidas.
+    """Lê candidaturas presidenciais do EA20 (carg/agr/par/cand)."""
     found=[]
-    def walk(node,depth=0):
-        if depth>12:return
-        if isinstance(node,dict):
-            if isinstance(node.get("cand"),list):found.extend(x for x in node["cand"] if isinstance(x,dict))
-            for k,v in node.items():
-                if k!="cand" and isinstance(v,(dict,list)):walk(v,depth+1)
-        elif isinstance(node,list):
-            for v in node:walk(v,depth+1)
-    walk(obj)
-    def find(term):
-        return next((x for x in found if term in normalize(x.get("nmu") or x.get("nm") or x.get("nmcan"))),None)
-    a,b=find("LULA"),find("FLAVIO")
-    if a is None or b is None:return None
+    for cargo in obj.get("carg",[]):
+        if str(cargo.get("cd","1")) not in ("1","0001"):continue
+        for agr in cargo.get("agr",[]):
+            for par in agr.get("par",[]):
+                found.extend(x for x in par.get("cand",[]) if isinstance(x,dict))
+    if not found:return None
+    def match(x,number,name):
+        return str(x.get("n","")).strip()==number or name in normalize(x.get("nmu") or x.get("nm") or x.get("nmcan"))
+    lula=next((x for x in found if match(x,"13","LULA")),None)
+    flavio=next((x for x in found if match(x,"22","FLAVIO")),None)
+    if lula is None or flavio is None:return None
     try:
-        av=int(a["vap"]);bv=int(b["vap"])
-        if av<0 or bv<0 or av+bv<=0:return None
-        return av,bv
-    except (ValueError,TypeError,KeyError):return None
+        a=int(lula["vap"]);b=int(flavio["vap"])
+        return (a,b) if a>=0 and b>=0 and a+b>0 else None
+    except (TypeError,ValueError,KeyError):return None
+
 def save(name,data):
     (ROOT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 def collect():
@@ -52,7 +50,7 @@ def collect():
         except Exception as exc:print(code,type(exc).__name__,str(exc)[:100])
         time.sleep(.15)
     # Nunca sobrescreve resultados válidos com uma coleta vazia.
-    if states:save("results-br.json",states)
+    save("results-br.json",states)
     if national:save("results-national.json",national)
     print("Estados válidos:",len(states),"Brasil:",bool(national))
 
