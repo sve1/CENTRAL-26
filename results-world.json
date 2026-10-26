@@ -12,6 +12,26 @@
     "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
   },
   {
+    "code": "USA",
+    "lula": 25625,
+    "flavio": 48902,
+    "updated": "25/10/2026 21:04:33",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "ATLANTA",
+      "BOSTON",
+      "CHICAGO",
+      "HOUSTON",
+      "LOS ANGELES",
+      "MIAMI",
+      "NOVA YORK",
+      "ORLANDO",
+      "WASHINGTON"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
     "code": "ESP",
     "lula": 9293,
     "flavio": 4289,
@@ -39,6 +59,20 @@
     "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
   },
   {
+    "code": "ARG",
+    "lula": 4455,
+    "flavio": 2012,
+    "updated": "25/10/2026 19:33:34",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "BUENOS AIRES",
+      "CORDOBA",
+      "MENDOZA"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
     "code": "DNK",
     "lula": 1383,
     "flavio": 243,
@@ -47,19 +81,6 @@
     "partial": true,
     "localities": [
       "COPENHAGUE"
-    ],
-    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
-  },
-  {
-    "code": "ARG",
-    "lula": 271,
-    "flavio": 234,
-    "updated": "25/10/2026 19:33:34",
-    "source": "TSE — EA20, localidades identificadas",
-    "partial": true,
-    "localities": [
-      "CORDOBA",
-      "MENDOZA"
     ],
     "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
   },
@@ -156,13 +177,41 @@
     "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
   },
   {
+    "code": "URY",
+    "lula": 766,
+    "flavio": 532,
+    "updated": "25/10/2026 20:12:08",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "MONTEVIDEU"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
+    "code": "CAN",
+    "lula": 15776,
+    "flavio": 8501,
+    "updated": "25/10/2026 21:34:32",
+    "source": "TSE — EA20, localidades identificadas",
+    "partial": true,
+    "localities": [
+      "MONTREAL",
+      "OTTAWA",
+      "TORONTO",
+      "VANCOUVER"
+    ],
+    "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
+  },
+  {
     "code": "IND",
-    "lula": 25,
-    "flavio": 23,
+    "lula": 33,
+    "flavio": 24,
     "updated": "25/10/2026 17:06:08",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
+      "MUMBAI",
       "NOVA DELHI"
     ],
     "coverage": "Parcial oficial do TSE: somente localidades identificadas e verificadas; não representa necessariamente o total do país"
@@ -194,9 +243,9 @@
   },
   {
     "code": "CHL",
-    "lula": 700,
-    "flavio": 556,
-    "updated": "25/10/2026 19:46:38",
+    "lula": 1100,
+    "flavio": 946,
+    "updated": "25/10/2026 19:52:35",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [

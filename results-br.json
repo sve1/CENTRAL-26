@@ -1,245 +1,299 @@
 [
   {
     "code": "AC",
-    "lula": 60270,
-    "flavio": 111788,
-    "updated": "25/10/2026 19:47:15",
+    "lula": 144513,
+    "flavio": 287715,
+    "updated": "25/10/2026 21:45:46",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ac/ac-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "AL",
-    "lula": 258584,
-    "flavio": 149008,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 1152621,
+    "flavio": 744140,
+    "updated": "25/10/2026 21:45:47",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/al/al-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "AP",
-    "lula": 39483,
-    "flavio": 26015,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 222968,
+    "flavio": 198674,
+    "updated": "25/10/2026 21:45:46",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ap/ap-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "AM",
-    "lula": 410689,
-    "flavio": 438056,
-    "updated": "25/10/2026 19:39:16",
+    "lula": 1127731,
+    "flavio": 965031,
+    "updated": "25/10/2026 21:06:16",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/am/am-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 98.34,
+    "sectionsRemainingPct": 1.66
   },
   {
     "code": "BA",
-    "lula": 281444,
-    "flavio": 119405,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 6472537,
+    "flavio": 2602598,
+    "updated": "25/10/2026 21:45:24",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ba/ba-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.83,
+    "sectionsRemainingPct": 0.17
   },
   {
     "code": "CE",
-    "lula": 163380,
-    "flavio": 90821,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 4035209,
+    "flavio": 1819252,
+    "updated": "25/10/2026 21:45:48",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ce/ce-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.98,
+    "sectionsRemainingPct": 0.02
   },
   {
     "code": "DF",
-    "lula": 630633,
-    "flavio": 754366,
-    "updated": "25/10/2026 19:47:15",
+    "lula": 825224,
+    "flavio": 979542,
+    "updated": "25/10/2026 21:45:46",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/df/df-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "ES",
-    "lula": 189156,
-    "flavio": 254795,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 1001965,
+    "flavio": 1294504,
+    "updated": "25/10/2026 21:45:47",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/es/es-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "GO",
-    "lula": 87614,
-    "flavio": 146861,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 1585555,
+    "flavio": 2345334,
+    "updated": "25/10/2026 21:45:47",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/go/go-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "MA",
-    "lula": 603042,
-    "flavio": 311928,
-    "updated": "25/10/2026 19:47:17",
+    "lula": 2802469,
+    "flavio": 1228848,
+    "updated": "25/10/2026 21:45:48",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ma/ma-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.82,
+    "sectionsRemainingPct": 0.18
   },
   {
     "code": "MT",
-    "lula": 251541,
-    "flavio": 421850,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 694067,
+    "flavio": 1350912,
+    "updated": "25/10/2026 21:45:47",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mt/mt-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.99,
+    "sectionsRemainingPct": 0.01
   },
   {
     "code": "MS",
-    "lula": 217977,
-    "flavio": 332602,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 628973,
+    "flavio": 927892,
+    "updated": "25/10/2026 21:45:46",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ms/ms-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "MG",
-    "lula": 802276,
-    "flavio": 809137,
-    "updated": "25/10/2026 19:46:47",
+    "lula": 6331593,
+    "flavio": 6232349,
+    "updated": "25/10/2026 21:45:24",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mg/mg-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.73,
+    "sectionsRemainingPct": 0.27
   },
   {
     "code": "PA",
-    "lula": 1027577,
-    "flavio": 848387,
-    "updated": "25/10/2026 19:47:17",
+    "lula": 2689359,
+    "flavio": 2199659,
+    "updated": "25/10/2026 21:45:20",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pa/pa-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.96,
+    "sectionsRemainingPct": 0.04
   },
   {
     "code": "PB",
-    "lula": 1141034,
-    "flavio": 533297,
-    "updated": "25/10/2026 19:47:17",
+    "lula": 1793862,
+    "flavio": 865159,
+    "updated": "25/10/2026 21:45:47",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pb/pb-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.99,
+    "sectionsRemainingPct": 0.01
   },
   {
     "code": "PR",
-    "lula": 1097620,
-    "flavio": 1814808,
-    "updated": "25/10/2026 19:47:19",
+    "lula": 2566504,
+    "flavio": 4291444,
+    "updated": "25/10/2026 21:45:22",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pr/pr-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "PE",
-    "lula": 270149,
-    "flavio": 95474,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 4113800,
+    "flavio": 1831538,
+    "updated": "25/10/2026 21:45:19",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pe/pe-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.92,
+    "sectionsRemainingPct": 0.08
   },
   {
     "code": "PI",
-    "lula": 76884,
-    "flavio": 22312,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 1653989,
+    "flavio": 525859,
+    "updated": "25/10/2026 21:45:48",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pi/pi-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "RJ",
-    "lula": 9263,
-    "flavio": 13672,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 4565286,
+    "flavio": 5168902,
+    "updated": "25/10/2026 21:45:48",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rj/rj-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.99,
+    "sectionsRemainingPct": 0.01
   },
   {
     "code": "RN",
-    "lula": 281791,
-    "flavio": 128162,
-    "updated": "25/10/2026 19:46:46",
+    "lula": 1413596,
+    "flavio": 737409,
+    "updated": "25/10/2026 21:45:47",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rn/rn-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "RS",
-    "lula": 375454,
-    "flavio": 624331,
-    "updated": "25/10/2026 19:47:19",
+    "lula": 2824552,
+    "flavio": 3874378,
+    "updated": "25/10/2026 21:45:24",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rs/rs-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "RO",
-    "lula": 120436,
-    "flavio": 218302,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 294446,
+    "flavio": 674382,
+    "updated": "25/10/2026 21:45:46",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ro/ro-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "RR",
-    "lula": 10488,
-    "flavio": 17104,
-    "updated": "25/10/2026 19:40:35",
+    "lula": 83505,
+    "flavio": 219675,
+    "updated": "25/10/2026 21:45:46",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rr/rr-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "SC",
-    "lula": 228657,
-    "flavio": 353718,
-    "updated": "25/10/2026 19:47:16",
+    "lula": 1418314,
+    "flavio": 3220071,
+    "updated": "25/10/2026 21:45:49",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sc/sc-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "SP",
-    "lula": 116493,
-    "flavio": 194181,
-    "updated": "25/10/2026 19:47:17",
+    "lula": 12118543,
+    "flavio": 14138848,
+    "updated": "25/10/2026 21:45:26",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sp/sp-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 99.99,
+    "sectionsRemainingPct": 0.01
   },
   {
     "code": "SE",
-    "lula": 9569,
-    "flavio": 4491,
-    "updated": "25/10/2026 19:47:15",
+    "lula": 989041,
+    "flavio": 433354,
+    "updated": "25/10/2026 21:45:46",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/se/se-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   },
   {
     "code": "TO",
-    "lula": 300357,
-    "flavio": 304064,
-    "updated": "25/10/2026 19:47:17",
+    "lula": 442962,
+    "flavio": 467916,
+    "updated": "25/10/2026 21:45:47",
     "source": "TSE — EA20",
     "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/to/to-c0001-e006258-u.json",
-    "partial": true
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
   }
 ]
