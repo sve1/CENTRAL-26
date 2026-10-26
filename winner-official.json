@@ -1,10 +1,12 @@
 {
-  "status": "pending",
-  "officialWinner": false,
-  "winner": null,
+  "status": "final",
+  "officialWinner": true,
+  "winner": "lula",
   "source": "TSE",
-  "updated": "25/10/2026 21:45:21",
+  "updated": "25/10/2026 23:27:02",
   "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
-  "totalization": "p",
-  "mathematical": "e"
+  "totalization": "f",
+  "mathematical": null,
+  "candidateName": "LULA",
+  "votes": 64256232
 }

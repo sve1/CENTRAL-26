@@ -3,7 +3,7 @@
     "code": "NLD",
     "lula": 5578,
     "flavio": 1383,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -13,9 +13,9 @@
   },
   {
     "code": "USA",
-    "lula": 25625,
-    "flavio": 48902,
-    "updated": "25/10/2026 21:04:33",
+    "lula": 28275,
+    "flavio": 50618,
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -35,7 +35,7 @@
     "code": "ESP",
     "lula": 9293,
     "flavio": 4289,
-    "updated": "25/10/2026 17:06:07",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -48,7 +48,7 @@
     "code": "DEU",
     "lula": 16549,
     "flavio": 4374,
-    "updated": "25/10/2026 17:06:07",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -62,7 +62,7 @@
     "code": "ARG",
     "lula": 4455,
     "flavio": 2012,
-    "updated": "25/10/2026 19:33:34",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -76,7 +76,7 @@
     "code": "DNK",
     "lula": 1383,
     "flavio": 243,
-    "updated": "25/10/2026 17:06:07",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -88,7 +88,7 @@
     "code": "GBR",
     "lula": 10968,
     "flavio": 6349,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -101,7 +101,7 @@
     "code": "SWE",
     "lula": 2127,
     "flavio": 591,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -113,7 +113,7 @@
     "code": "PRT",
     "lula": 34319,
     "flavio": 23433,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -127,7 +127,7 @@
     "code": "CHE",
     "lula": 7089,
     "flavio": 5419,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -140,7 +140,7 @@
     "code": "JPN",
     "lula": 7098,
     "flavio": 28538,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -154,7 +154,7 @@
     "code": "FRA",
     "lula": 10676,
     "flavio": 2039,
-    "updated": "25/10/2026 17:06:07",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -167,7 +167,7 @@
     "code": "ITA",
     "lula": 7921,
     "flavio": 5283,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -180,7 +180,7 @@
     "code": "URY",
     "lula": 766,
     "flavio": 532,
-    "updated": "25/10/2026 20:12:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -192,7 +192,7 @@
     "code": "CAN",
     "lula": 15776,
     "flavio": 8501,
-    "updated": "25/10/2026 21:34:32",
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -207,7 +207,7 @@
     "code": "IND",
     "lula": 33,
     "flavio": 24,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -220,7 +220,7 @@
     "code": "NOR",
     "lula": 820,
     "flavio": 248,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -232,7 +232,7 @@
     "code": "CHN",
     "lula": 308,
     "flavio": 88,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -245,7 +245,7 @@
     "code": "CHL",
     "lula": 1100,
     "flavio": 946,
-    "updated": "25/10/2026 19:52:35",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -257,7 +257,7 @@
     "code": "KOR",
     "lula": 148,
     "flavio": 82,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -269,7 +269,7 @@
     "code": "SGP",
     "lula": 213,
     "flavio": 121,
-    "updated": "25/10/2026 17:06:07",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -281,7 +281,7 @@
     "code": "AUS",
     "lula": 4161,
     "flavio": 2468,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -293,7 +293,7 @@
     "code": "ISR",
     "lula": 166,
     "flavio": 699,
-    "updated": "25/10/2026 17:06:07",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -305,7 +305,7 @@
     "code": "AUT",
     "lula": 1178,
     "flavio": 393,
-    "updated": "25/10/2026 17:06:07",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
@@ -317,7 +317,7 @@
     "code": "NZL",
     "lula": 418,
     "flavio": 101,
-    "updated": "25/10/2026 17:06:08",
+    "updated": "25/10/2026 23:27:27",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
