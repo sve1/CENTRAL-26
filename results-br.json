@@ -187,6 +187,17 @@
     "sectionsRemainingPct": 0.0
   },
   {
+    "code": "PI",
+    "lula": 1653989,
+    "flavio": 525859,
+    "updated": "25/10/2026 23:26:59",
+    "source": "TSE — EA20",
+    "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pi/pi-c0001-e006258-u.json",
+    "partial": true,
+    "sectionsCountedPct": 100.0,
+    "sectionsRemainingPct": 0.0
+  },
+  {
     "code": "RJ",
     "lula": 4565393,
     "flavio": 5169033,

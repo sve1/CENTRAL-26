@@ -13,14 +13,15 @@
   },
   {
     "code": "USA",
-    "lula": 26216,
-    "flavio": 49452,
+    "lula": 28275,
+    "flavio": 50618,
     "updated": "25/10/2026 23:27:28",
     "source": "TSE — EA20, localidades identificadas",
     "partial": true,
     "localities": [
       "ATLANTA",
       "BOSTON",
+      "CHICAGO",
       "HOUSTON",
       "LOS ANGELES",
       "MIAMI",
